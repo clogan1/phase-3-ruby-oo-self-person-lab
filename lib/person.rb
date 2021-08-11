@@ -13,21 +13,21 @@ class Person
         @hygiene = 8
     end
 
-    def name 
-        @name
-    end
+    # def name 
+    #     @name
+    # end
 
-    def bank_account 
-        @bank_account
-    end
+    # def bank_account 
+    #     @bank_account
+    # end
 
     def bank_account=(value)
         @bank_account = value
     end
 
-    def happiness 
-        @happiness
-    end
+    # def happiness 
+    #     @happiness
+    # end
 
     def happiness=(value)
         if 0 > value
